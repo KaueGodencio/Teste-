@@ -334,6 +334,11 @@ body {
 
     }
 
+    .form-label {
+        font-size: 13.5px;
+
+    }
+
     .form-control::placeholder {
         font-size: 12px;
 
