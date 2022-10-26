@@ -26,7 +26,7 @@ body {
     background-color: #241725;
     color: white;
     font-family: "Roboto-Regular"
-    
+
 
 }
 
@@ -90,16 +90,22 @@ body {
     font-size: 55px
 }
 
+.caixa-frame {
+    display: flex;
+    justify-content: center;
+
+}
+
 .text p {
+    font-size: 20.4px;
     position: relative;
     width: 520px;
 
 }
 
 .text img {
-    margin-top: 20px;
-    height: 300px;
-    width: 520px;
+    height: 269px;
+    width: 514px;
 
 }
 
@@ -112,10 +118,10 @@ body {
 
 .img-triangulo-topo {
     position: absolute;
-    margin-left: 141px;
-    height: 303px;
-    transform: rotate(-1.94turn);
-    margin-top: -41px;
+    margin-left: 230px;
+    height: 163px;
+    width: 140px;
+    margin-top: 6px;
 
 }
 
@@ -154,7 +160,7 @@ body {
     color: #868484;
     background-color: rgb(81, 59, 105, 0.9);
     height: 100%;
-       
+
 }
 
 .form-control-imput {
@@ -162,7 +168,7 @@ body {
     height: 100%;
     width: 100%;
     margin: 5px;
-    
+
 }
 
 .form-control-imput:focus {
@@ -176,7 +182,7 @@ body {
     transform: rotate(-1.94turn);
     height: 327px;
     margin-left: 210px;
-    
+
 }
 
 .caixa-botão {
@@ -259,9 +265,9 @@ body {
 /* Deixei display none para que imagem dos triangulos não aparecesse em telas maiores seguindo Layout */
 @media screen and (min-width: 767px) {
     .img-triangulo-topo {
-        display: none;}
+        display: none;
+    }
 }
-    
 
 /* Inicio MediaScreen telas pequenas (Iphone SE) */
 @media screen and (max-width: 767px) {
@@ -295,7 +301,7 @@ body {
     }
 
     .text p {
-        font-size: 12px;
+        font-size: 12.4px;
         width: auto;
     }
 
@@ -317,7 +323,7 @@ body {
     }
 
     .caixa-frame {
-        margin-top: 61px;
+        margin-top: 20px;
 
     }
 
@@ -327,7 +333,7 @@ body {
 
     }
 
-    .form-control::placeholder{
+    .form-control::placeholder {
         font-size: 12px;
 
 
@@ -351,12 +357,8 @@ body {
     }
 
     .logo-redes {
-        width: 80px;
-
+        width: 80px
     }
+
+    /* Fim MediaScreen telas pequenas*/
 }
-
-/* Fim MediaScreen telas pequenas*/
-
-
-
