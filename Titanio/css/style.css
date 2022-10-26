@@ -1,0 +1,346 @@
+/*Import font*/
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: "TitilliumWeb";
+    src: url(../fonts/Titillium_Web/TitilliumWeb-SemiBold.ttf);
+}
+
+/* Retirando manrgins e bordas do navergador*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  Fim resete navegador*/
+body {
+    color: white;
+    font-family: "Roboto-Regular"
+
+}
+
+/* inicio css header*/
+.header {
+    background: #241725;
+    height: 100%;
+}
+
+.container-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.caixa-logo {
+    width: 100%;
+    padding: 20px;
+}
+
+.image-logo {
+    height: auto;
+    padding: 15px;
+
+}
+
+/* fim css header*/
+
+/*Inicio css main */
+
+
+.section-1 {
+    width: 100%;
+    height: 635px;
+    background-color: #241725;
+
+}
+
+.section-1-box {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.text h1 {
+    text-transform: uppercase;
+    border-bottom: 2px solid #ED9B27;
+    width: auto;
+    position: relative;
+    font-weight: 600;
+    padding: 20px 0px;
+    font-size: 55px
+}
+
+.text p {
+    position: relative;
+    width: 520px;
+
+}
+
+.text img {
+    margin-top: 20px;
+    height: 300px;
+    width: 520px;
+
+}
+
+.caixa-info {
+    display: flex;
+    width: 560px;
+    margin-left: 90px;
+
+}
+
+.img-triangulo-topo {
+    position: absolute;
+    margin-left: 141px;
+    height: 303px;
+    transform: rotate(-1.94turn);
+    margin-top: -41px;
+
+}
+
+.frm-contact {
+    position: absolute;
+    width: 415px;
+    height: 410px;
+    border-radius: 10px;
+    padding: 10px;
+    padding: 20px 30px;
+    margin-top: 105px;
+    background-color: rgb(81, 59, 105, 0.9);
+}
+
+.form-label {
+    color: #ED9B27;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.form-control {
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color: rgb(81, 59, 105, 0.9);
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #ED9B27;
+    padding-left: 0px;
+    padding: 0;
+
+}
+
+.form-control::placeholder {
+    color: white;
+    background-color: rgb(81, 59, 105, 0.9);
+    height: 100%;
+    width: 100%
+}
+
+.form-control-imput {
+    background-color: rgb(81, 59, 105, 0.9);
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+}
+
+.form-control-imput:focus {
+    background-color: rgb(81, 59, 105, 0.9);
+    border: none;
+
+}
+
+.img-triangulo {
+    margin-top: -2px;
+    transform: rotate(-1.94turn);
+    height: 339px;
+    margin-left: 200px;
+
+}
+
+.caixa-botão {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    padding: 25px;
+
+}
+
+.btn {
+    background-color: #2843E5;
+    width: 280px;
+    height: 48px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 0px 19px #a38a68;
+}
+
+/* Fim css main  */
+
+/* Inicio Footer*/
+.footer {
+    background: black
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 255px;
+    background: black;
+
+}
+
+.redes-sociais {
+    width: 337px;
+
+}
+
+.redes-sociais a {
+    color: black;
+}
+
+.logo-redes {
+    width: 17.9%;
+}
+
+.logo-footer {
+    width: 310px;
+}
+
+.footer-logo {
+    width: 65.9%;
+}
+
+.logo-whats-footer {
+    width: 310px;
+    font-size: 31px;
+    font-weight: 400;
+
+}
+
+.whats-logo {
+    width: 15.9%;
+}
+
+.texto-footer {
+    width: 310px;
+
+}
+
+/* Fim css Footer*/
+
+/* Inicio MediaScreen telas pequenas*/
+@media screen and (max-width: 767px) {
+
+    .header-flex {
+        height: auto
+    }
+
+    .image-logo {
+        height: 28vw;
+    }
+
+    .section-1 {
+        height: 1050px;
+
+    }
+
+    .section-1-box {
+        display: inline;
+    }
+
+
+    .text {
+        width: 320px;
+        margin-left: 30px;
+
+    }
+
+    .text h1 {
+        font-size: 38px;
+    }
+
+    .text p {
+        font-size: 12px;
+        width: auto;
+    }
+
+    .text img {
+        width: 325px;
+        height: 220px;
+        margin-top: 20px;
+
+    }
+
+    .caixa-info {
+        width: 373px;
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .img-triangulo {
+        display: none
+    }
+
+    .caixa-frame {
+        margin-top: 61px;
+
+    }
+
+    .frm-contact {
+        margin-top: 55px;
+        width: 340px;
+
+    }
+
+    .logo-whats-footer {
+        display: none;
+    }
+
+    .rodape {
+        flex-direction: column-reverse;
+    }
+
+    .logo-footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .redes-sociais {
+        margin-left: 6px;
+    }
+
+    .logo-redes {
+        width: 80px;
+
+    }
+}
+
+/* Fim MediaScreen telas pequenas*/
+@media screen and (min-width: 767px) {
+    .img-triangulo-topo {
+        display: none;
+    }
+
+}
