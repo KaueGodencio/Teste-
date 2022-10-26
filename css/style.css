@@ -137,6 +137,7 @@ body {
 }
 
 .form-label {
+    font-size: 13.5px;
     color: #ED9B27;
     font-weight: 600;
     text-transform: uppercase;
